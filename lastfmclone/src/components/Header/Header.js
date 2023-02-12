@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 
 function Header({ darkMode, setDarkMode }) {
   return (
-    <nav className="navbar navbar-dark bg-dark p-1">
+    <nav className="navbar navbar-dark bg-dark  p-1">
       <div className="d-flex justify-content-between align-items-center">
         <img src={playerDefaultAlbum} alt="player default album" />
         <div className="ms-1">
@@ -34,18 +34,20 @@ function Header({ darkMode, setDarkMode }) {
           />
         </Link>
       </div>
-      <div className="d-flex align-items-center me-4">
-        <button className="bg-transparent border-0" onClick={(e) => { setDarkMode(!darkMode); }} >
-          
-          {darkMode ? ( <MdDarkMode className="MdDarkMode text-primary" /> ) 
-          
-          :
-
-
-           ( <MdLightMode className="MdLightMode text-warning" />)
-          }
-        </button>
-      </div>
+        <div className="d-flex align-items-center me-4">
+            <button
+                className="bg-transparent border-0"
+                onClick={(e) => {
+                    setDarkMode(!darkMode);
+                }}
+            >
+                {darkMode ? (
+                    <MdDarkMode className="MdDarkMode text-primary" />
+                ) : (
+                    <MdLightMode className="MdLightMode text-warning" />
+                )}
+            </button>
+        </div>
     </nav>
   );
 }

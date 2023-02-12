@@ -1,7 +1,7 @@
 .light {
   width: 100vw;
   height: 150vh;
-  background-color: #fff;
+  background-color: #fff!important;
   z-index: -1;
   position: absolute;
   transition: 0.3s;
