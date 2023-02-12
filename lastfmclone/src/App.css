@@ -1,0 +1,31 @@
+.light {
+  width: 100vw;
+  height: 150vh;
+  background-color: #fff;
+  z-index: -1;
+  position: absolute;
+  transition: 0.3s;
+  color: white;
+}
+
+.light-header{
+color:#292c35
+}
+
+.dark {
+  background-color: #292c35;
+  width: 100vw;
+  height: 110rem;
+  z-index: -1;
+  position: absolute;
+  transition: 0.3s;
+  color: white;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
