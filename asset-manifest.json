@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/lastfm/static/css/main.09b5f41e.css",
+    "main.js": "/lastfm/static/js/main.ba6a861f.js",
+    "static/js/787.b93cc3a6.chunk.js": "/lastfm/static/js/787.b93cc3a6.chunk.js",
+    "static/media/lastfm-logo.png": "/lastfm/static/media/lastfm-logo.eea6e0744aa7e846b203.png",
+    "index.html": "/lastfm/index.html",
+    "main.09b5f41e.css.map": "/lastfm/static/css/main.09b5f41e.css.map",
+    "main.ba6a861f.js.map": "/lastfm/static/js/main.ba6a861f.js.map",
+    "787.b93cc3a6.chunk.js.map": "/lastfm/static/js/787.b93cc3a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09b5f41e.css",
+    "static/js/main.ba6a861f.js"
+  ]
+}
